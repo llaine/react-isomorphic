@@ -2,6 +2,7 @@ import fs from 'fs';
 import express from 'express';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import { match, RoutingContext } from 'react-router';
 import ContactsApp from './app/component/contact-app.jsx';
 
 const app = express();
